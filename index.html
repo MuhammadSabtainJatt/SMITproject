@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+    <!-- link for Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+
+</head>
+<body id="body">
+        <main class="container">
+            <div class=" col-md-12  "id="box">
+                <h1 class="text-center text-white mb-3">ADMIN LOGIN</h1>
+                <form action="" class="form ">
+                    <input class="m-2" id="name" type="text" placeholder="Enter Your Name"><br>
+                    
+                     <!-- <input type="text" class="form-control " id="name" placeholder="Type Your Text Here" > -->
+                     <!-- <span class="input-group-text btn btn-light z-1 " onclick="clearInput()">Clear</span> -->
+                    <input class="m-2" id="email" type="email" placeholder="Enter Email" required><br>
+                    <input class="m-2" id="passWord" type="password" placeholder="Enter Password" required>
+                   <button onclick="showPassword()"><a href="#" id="forGot" >Forgot Password?</a></button>
+                </form>
+                <!-- <a   type="submit" id="login" onclick="loGin()" class="text-center py-2" > Login</a>-->
+                <button id="login" type="submit" value="Login" onclick="loGin()" class="text-center py-2">login</button>
+            </div>
+                
+            </div>
+        </main>
+        <script src="./js/script.js"></script>
+        <!-- link for toastify-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
+</body>
+</html>
